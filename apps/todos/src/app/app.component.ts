@@ -8,6 +8,7 @@ import { Todo } from '@my-nx-tutorial/data';
 })
 export class AppComponent {
   todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];
+  title= 'todos'
 
   constructor(private http: HttpClient) {
     this.fetch();

@@ -7,5 +7,6 @@ import { Todo } from '@my-nx-tutorial/data';
   styleUrls: ['./todos.component.scss'],
 })
 export class TodosComponent {
+  @Input() todoTitle: string;
   @Input() todos: Todo[];
 }
